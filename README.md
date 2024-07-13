@@ -1,59 +1,34 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# Xylophone App
 
-# Xylophone
+# ScreenShots
 
-## Our Goal
+<img src="https://github.com/user-attachments/assets/a706db97-02a3-421f-afa5-25ce44971149" width="100">
 
-The goal of this tutorial is to dive into a simple iOS recipe - how to play sound and use an Apple library called AVFoundation. The most important skill of a great programmer is being able to solve your own problems. We’ll do that by exploring StackOverflow, Apple Documentation and learning how to search for solutions effectively. By learning to use these tools, you’ll be able to start adding custom features to an app and get it to do what you want it to.
+# Overview
 
+Welcome to the Xylophone app project! This app allows users to play musical notes like a xylophone by tapping colorful buttons on the screen. It's a fun introduction to iOS development, focusing on sound playback using AVFoundation and basic UI interaction.
 
-## What you will create
+# Features
 
-You will be making your first musical instrument! Music apps are so popular on the App Store that they even get their own category. So in this module, we’re going to make a colourful XyloPhone app. Get it? Ok, the jokes are bad, but remember, I only wrote the good ones... 
+Tap colorful buttons to play musical notes.
 
-## What you will learn
+Each button corresponds to a unique sound.
 
-* How to play sound using AVFoundation and AVAudioPlayer.
-* Understand Apple documentation and how to use StackOverflow.
-* Functions and methods in Swift. 
-* Data types.
-* Swift loops.
-* Variable scope.
-* The ViewController lifecycle.
-* Error handling in Swift.
-* Code refactoring.
-* Basic debugging.
+Built using Swift and AVFoundation for audio playback.
 
-## Replacement Code
+# Learning Goals
 
-```
-import UIKit
-import AVFoundation
+Sound Playback: Utilize AVFoundation and AVAudioPlayer to play audio files.
 
-class ViewController: UIViewController {
-    
-    var player: AVAudioPlayer!
+UI Development: Create a simple and intuitive user interface with UIKit.
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+Problem Solving: Learn how to search for solutions effectively using resources like StackOverflow and Apple's Documentation.
 
-    @IBAction func keyPressed(_ sender: UIButton) {
-        playSound()
-    }
-    
-    func playSound() {
-        let url = Bundle.main.url(forResource: "C", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-                
-    }
-}
-```
+Core Concepts: Gain familiarity with Swift functions, data types, loops, variable scope, error handling, and debugging techniques.
 
+# What I Learned
 
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
-
+Implemented sound playback functionality using AVFoundation.
+Explored UIKit to design a colorful and interactive user interface.
+Enhanced problem-solving skills by leveraging online resources for troubleshooting.
+Gained insights into Swift programming features and best practices.
