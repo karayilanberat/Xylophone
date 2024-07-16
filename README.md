@@ -1,34 +1,48 @@
 # Xylophone App
 
-# ScreenShots
+## Screenshots
 
 <img src="https://github.com/user-attachments/assets/a706db97-02a3-421f-afa5-25ce44971149" width="100">
 
-# Overview
+## Overview
 
 Welcome to the Xylophone app project! This app allows users to play musical notes like a xylophone by tapping colorful buttons on the screen. It's a fun introduction to iOS development, focusing on sound playback using AVFoundation and basic UI interaction.
 
-# Features
+## Features
 
-Tap colorful buttons to play musical notes.
+- Tap colorful buttons to play musical notes.
+- Each button corresponds to a unique sound.
+- Built using Swift and AVFoundation for audio playback.
 
-Each button corresponds to a unique sound.
+## Learning Goals
 
-Built using Swift and AVFoundation for audio playback.
+- **Sound Playback:** Utilize AVFoundation and AVAudioPlayer to play audio files.
+- **UI Development:** Create a simple and intuitive user interface with UIKit.
+- **Problem Solving:** Learn how to search for solutions effectively using resources like StackOverflow and Apple's Documentation.
+- **Core Concepts:** Gain familiarity with Swift functions, data types, loops, variable scope, error handling, and debugging techniques.
 
-# Learning Goals
+## What I Learned
 
-Sound Playback: Utilize AVFoundation and AVAudioPlayer to play audio files.
+- Implemented sound playback functionality using AVFoundation.
+- Explored UIKit to design a colorful and interactive user interface.
+- Enhanced problem-solving skills by leveraging online resources for troubleshooting.
+- Gained insights into Swift programming features and best practices.
 
-UI Development: Create a simple and intuitive user interface with UIKit.
+## Usage
 
-Problem Solving: Learn how to search for solutions effectively using resources like StackOverflow and Apple's Documentation.
+1. **Play Notes:**
+   - Tap the colorful buttons on the screen to play different musical notes.
 
-Core Concepts: Gain familiarity with Swift functions, data types, loops, variable scope, error handling, and debugging techniques.
+## Code Overview
 
-# What I Learned
+### View Controllers
 
-Implemented sound playback functionality using AVFoundation.
-Explored UIKit to design a colorful and interactive user interface.
-Enhanced problem-solving skills by leveraging online resources for troubleshooting.
-Gained insights into Swift programming features and best practices.
+- **ViewController.swift:** Manages the user interface and handles button interactions to play sounds.
+
+## Running the Project
+
+To run this project, follow these steps:
+```bash
+git clone https://github.com/yourusername/Xylophone.git
+cd Xylophone
+open Xylophone.xcodeproj
